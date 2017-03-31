@@ -1,6 +1,6 @@
 #!/bin/sh
 
-apt-get screen
+apt-get install -y screen
 
 echo "Starting a new screen and running ./getFresh.sh"
 
