@@ -17,7 +17,7 @@ git clone https://charlesreid1.com:3000/rpi/pi-join-wifi.git
 git clone https://charlesreid1.com:3000/rpi/pi-aircrack-batch.git
 
 # startup services
-https://charlesreid1.com:3000/rpi/pi-startup-services
+git clone https://charlesreid1.com:3000/rpi/pi-startup-services
 
 # stunnel client settings
 git clone https://charlesreid1.com:3000/rpi/pi-stunnel.git
