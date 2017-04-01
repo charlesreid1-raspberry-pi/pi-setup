@@ -26,6 +26,8 @@ apt-get install -y \
 	git \
 	stunnel
 
+apt-get -y autoremove
+
 # -------
 
 # fix ssh keys
@@ -47,15 +49,4 @@ wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 
 pip install scapy
-
-# -------
-
-# install dotfiles 
-export CODES=${HOME}/codes
-mkdir -p ${CODES}
-cd ${CODES}
-git clone https://github.com/charlesreid1/dotfiles
-cd dotfiles 
-./pre_bootstrap.sh
-./bootstrap.sh
 
