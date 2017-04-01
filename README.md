@@ -35,4 +35,3 @@ Can carry ssh, scp, or rsync traffic.
 Monitors stunnel connection. Runs rsync to sync data files
 from Raspberry Pi with remote server over stunnel.
 
-
