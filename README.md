@@ -7,11 +7,13 @@ Setup for Raspberry Pi computers.
 The `get_fresh.sh` script is intended to get you all set up 
 with tools from apt-get, python pip and friends, and fixing your ssh.
 
-## rpi git repos setup script
+## update git repos setup script
 
-The `rpi_git_repos.sh` script checks out some repositories 
-from git.charlesreid1.com that provide scripts and tools for the 
-Raspberry Pi.
+The `update_git_repos.sh` script checks for the existence 
+of a bunch of useful code repositories related to raspberry pis,
+and if they don't exist in ~/codes/ the script checks them out.
+If they do exist, the script runs a git pull on each to get the 
+freshest version available. 
 
 ### pi-join-wifi
 
